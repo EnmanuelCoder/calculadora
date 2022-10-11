@@ -1,0 +1,32 @@
+@import "../App.css";
+
+.boton-contenedor {
+  height: 5rem;
+  display: flex;
+  flex: 1 1; /*Esto se refiere a que el tamaño se va a distribuir por igual dependiendo de cuantos elementos haigan disponibles*/
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2rem;
+  background: var(--color-botones);
+  color: var(--color-signos);
+  border-radius: 2.5rem;
+  border: .2rem solid white;
+  margin: .4rem;
+  cursor: pointer;
+}
+
+.boton-contenedor:hover {
+  background: var(--color-botones-hover);
+}
+
+.operador {
+  background: var(--color-botones-signos);
+  color: #000;
+  border: var(--color-botones) solid .2rem;
+}
+
+.operador:hover {
+  color: #fff;
+  border: #fff solid .2rem;
+}

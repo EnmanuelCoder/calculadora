@@ -1,0 +1,20 @@
+@import "../App.css";
+
+.Boton-clear {
+  display: flex;
+  flex: 1;
+  height: 5rem;
+  border-radius: 2.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  background: #dd0b0b;
+  color: #fff;
+  border: #fff solid .2rem;
+  cursor: pointer;
+}
+
+.Boton-clear:hover {
+  background: rgba(248, 13, 13, 0.541)
+}
